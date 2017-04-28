@@ -1,6 +1,5 @@
 function Y_adj = regressout(Y,X);
 
-% Y = data;
 X_full = [X ones(size(X,1),1)]; % add a constant term 
 
 B = X_full\Y;
